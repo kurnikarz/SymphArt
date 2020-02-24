@@ -11,6 +11,9 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'path' => [
                 '/',
             ],
+            'name' => [
+                'article_list',
+            ],
         ],
         'Sensio\\Bundle\\FrameworkExtraBundle\\Configuration\\Method' => [
             'methods' => [
