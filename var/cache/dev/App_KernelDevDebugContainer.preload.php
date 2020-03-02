@@ -6,7 +6,7 @@
 use Symfony\Component\DependencyInjection\Dumper\Preloader;
 
 require dirname(__DIR__, 3).'\\vendor/autoload.php';
-require __DIR__.'/ContainerBsE1xbq/App_KernelDevDebugContainer.php';
+require __DIR__.'/Container8MBSsIs/App_KernelDevDebugContainer.php';
 
 $classes = [];
 $classes[] = 'App\Kernel';
@@ -55,6 +55,7 @@ $classes[] = 'Symfony\Bridge\Twig\Extension\StopwatchExtension';
 $classes[] = 'Symfony\Bridge\Twig\Extension\HttpKernelExtension';
 $classes[] = 'Symfony\Bridge\Twig\Extension\HttpFoundationExtension';
 $classes[] = 'Symfony\Component\HttpFoundation\UrlHelper';
+$classes[] = 'Symfony\Bridge\Twig\Extension\FormExtension';
 $classes[] = 'Twig\Extension\DebugExtension';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Twig\DoctrineExtension';
 $classes[] = 'Symfony\Bridge\Twig\AppVariable';
